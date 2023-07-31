@@ -1,0 +1,106 @@
+body {
+	background-color: #daf5ff;
+	font-family: 'Calibri', 'Arial', sans-serif;
+}
+
+h2 {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.container {
+	position: relative;
+	top: 20px;
+	width: 280px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 30px 30px;
+	border-radius: 6px;
+}
+
+.array-choosen {
+	display: none;
+}
+
+.game-field {}
+
+.array1 {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.player-status {
+	padding: 10px 0 0 0;
+	margin: 0 auto;
+	width: 280px;
+}
+
+.buttons-block {
+	position: absolute;
+	top: 319px;
+	opacity: 0%;
+}
+
+.btn {
+	width: 70px;
+	height: 110px;
+	margin-left: 6px;
+	cursor: pointer;
+}
+
+.object {
+	width: 60px;
+	height: 100px;
+	border: 1px solid #ccc;
+	margin: 4px 3px;
+	padding: 6px;
+	text-align: center;
+	background-color: #ffffea;
+	border-radius: 6px;
+	color: #717171;
+}
+
+.object:nth-last-child(2),
+.object:nth-last-child(3),
+.object:nth-last-child(4) {
+  color: #000000; /* Новий колір */
+  border: 1px solid #a7a7a7;
+  background-color: #fdfdd9;
+}
+
+.object-name {
+	font-size: 22px;
+}
+
+.object-number {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.cover-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #daf5ff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-button {
+    background-color: #66788f;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1em;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}

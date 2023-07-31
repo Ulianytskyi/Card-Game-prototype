@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container hide">
+
+        <div class="game-field">
+            <h2>Cards:</h2>
+
+            <div class="buttons-block">
+                <button id="button1" class="btn">Left</button>
+                <button id="button2" class="btn">Center</button>
+                <button id="button3" class="btn">Right</button>
+            </div>
+
+            <div class="array1" id="array1"></div>
+        </div>
+
+        <div class="player-status">
+            <h2>Player Stats:</h2>
+            <div id="player-healthPoint">HP: 16</div>
+            <div id="player-experience">XP: 0</div>
+        </div>
+
+        <div class="array-choosen" id="array2"></div>
+
+    </div>
+
+    <div class="cover-screen">
+        <h2 id="over-text" class="hide">
+            Game Over
+        </h2>
+        <p id="result"></p>
+        <button id="start-button">Start Game</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
